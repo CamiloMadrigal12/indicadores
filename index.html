@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan de Desarrollo 2026 · avance por secretaría</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<main class="pd">
+  <header id="encabezado">
+    <h1>Plan de Desarrollo 2026 · avance por secretaría</h1>
+    <p class="pd-sub">Cumplimiento 2026 a la fecha (tercer trimestre) frente a la meta 2026 de cada indicador. Fuente: cierre del cuatrienio, versión 4, con la corrección de INDER del 5 de noviembre de 2026.</p>
+    <p class="pd-take"><b id="t-verde">—</b> de <b id="t-prog">—</b> indicadores programados en 2026 van en verde y <b id="t-rojo">—</b> en rojo.</p>
+    <div class="pd-legend">
+      <span><span class="pd-dot ok"></span>Verde: 80% o más</span>
+      <span><span class="pd-dot warn"></span>Amarillo: 60% a 79%</span>
+      <span><span class="pd-dot bad"></span>Rojo: menos de 60%</span>
+      <span>La línea vertical marca el 100% de la meta; las barras llegan hasta 150%.</span>
+    </div>
+  </header>
+
+  <div class="pd-bar">
+    <label>Secretaría <select id="sec-select" aria-label="Secretaría"></select></label>
+    <button class="pd-back" id="btn-back" type="button" hidden>Ver todas las secretarías</button>
+  </div>
+
+  <section id="general" class="pd">
+    <div class="pd-kpis">
+      <div class="pd-kpi"><span>Cumplimiento promedio</span><b id="g-prom">—</b></div>
+      <div class="pd-kpi"><span>Indicadores programados</span><b id="g-prog">—</b></div>
+      <div class="pd-kpi"><span class="v">En verde</span><b id="g-verde">—</b></div>
+      <div class="pd-kpi"><span class="a">En amarillo</span><b id="g-amarillo">—</b></div>
+      <div class="pd-kpi"><span class="r">En rojo</span><b id="g-rojo">—</b></div>
+    </div>
+    <div class="pd-card" id="secretarias">
+      <h2>Avance por secretaría</h2>
+      <p class="pd-note">Ordenadas de menor a mayor cumplimiento promedio. El promedio cuenta como 100% los indicadores que superan la meta. Haz clic en una secretaría para ver sus indicadores.</p>
+      <div class="pd-scroll">
+        <table>
+          <thead><tr><th>Secretaría</th><th class="n">Programados</th><th class="n">Verde</th><th class="n">Amarillo</th><th class="n">Rojo</th><th>Cumplimiento promedio</th></tr></thead>
+          <tbody id="tabla-sec"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="secretaria" class="pd" hidden>
+    <h2 id="s-nombre">—</h2>
+    <p id="nota-inder" style="display:none" hidden></p>
+    <div class="pd-kpis">
+      <div class="pd-kpi"><span>Cumplimiento promedio</span><b id="s-prom">—</b></div>
+      <div class="pd-kpi"><span>Programados en 2026</span><b id="s-prog">—</b></div>
+      <div class="pd-kpi"><span class="v">En verde</span><b id="s-verde">—</b></div>
+      <div class="pd-kpi"><span class="a">En amarillo</span><b id="s-amarillo">—</b></div>
+      <div class="pd-kpi"><span class="r">En rojo</span><b id="s-rojo">—</b></div>
+    </div>
+    <div class="pd-card" id="indicadores">
+      <h2>Indicadores programados en 2026</h2>
+      <p class="pd-note">Del más rezagado al más avanzado. Haz clic en un indicador para ver su meta, su cierre y cómo se calculó.</p>
+      <div class="pd-filters" role="group" aria-label="Filtrar por estado">
+        <button type="button" data-estado="" aria-pressed="true">Todos</button>
+        <button type="button" data-estado="rojo" aria-pressed="false">Rojo</button>
+        <button type="button" data-estado="amarillo" aria-pressed="false">Amarillo</button>
+        <button type="button" data-estado="verde" aria-pressed="false">Verde</button>
+      </div>
+      <div class="pd-scroll">
+        <table>
+          <thead><tr><th>Código</th><th>Indicador</th><th class="n">Meta 2026</th><th class="n">Cierre 2026</th><th>Cumplimiento</th></tr></thead>
+          <tbody id="tabla-ind"></tbody>
+        </table>
+      </div>
+      <p class="pd-note" id="hint">Selecciona un indicador de la tabla para ver su detalle.</p>
+      <div class="pd-detail" id="detalle" hidden></div>
+    </div>
+    <div class="pd-card" id="no-programados">
+      <h2>No programados en 2026 (NP)</h2>
+      <p class="pd-note">Indicadores sin meta para este año. No cuentan en el promedio.</p>
+      <div class="pd-scroll">
+        <table>
+          <thead><tr><th>Código</th><th>Indicador</th></tr></thead>
+          <tbody id="tabla-np"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="data/indicadores_2026.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

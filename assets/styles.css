@@ -1,0 +1,65 @@
+:root{
+  --bg:#faf9f5;--panel:#ffffff;--fg:#141413;--muted:#6b6a64;--line:#e6e4dc;
+  --track:#ecebe5;--ref:#73726c;--hover:#f4f3ee;--sel:#ecebe4;
+  --ok:#1a7f37;--warn:#a36a00;--bad:#c4372f;
+  --okf:#2e9e4f;--warnf:#e0a21a;--badf:#d94a3f;
+  --radius:8px;
+  --sans:"Inter","Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+  --serif:"Source Serif 4","Georgia","Times New Roman",serif;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#1f1e1d;--panel:#262624;--fg:#f0efea;--muted:#a6a59e;--line:#3a3936;
+  --track:#34332f;--ref:#c3c2b7;--hover:#2d2d2a;--sel:#34332f;
+  --ok:#5cc576;--warn:#f0b43c;--bad:#f07a70;
+  --okf:#3bb35f;--warnf:#e6a826;--badf:#e05a4f;
+}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg)}
+body{font:15px/1.5 var(--sans);-webkit-font-smoothing:antialiased}
+.pd{display:flex;flex-direction:column;gap:24px}
+main.pd{max-width:1200px;margin:0 auto;padding:32px clamp(16px,4vw,48px) 64px}
+h1{font:400 30px/1.2 var(--serif);margin:0}
+h2{font-size:17px;font-weight:500;margin:0}
+.pd-sub,.pd-note{color:var(--muted);font-size:13px;margin:4px 0 0}
+.pd-take{margin:10px 0 0;font-size:15px}
+.pd-take b{font-weight:500}
+.pd-legend{display:flex;flex-wrap:wrap;gap:16px;font-size:13px;color:var(--muted);align-items:center;margin-top:10px}
+.pd-dot{display:inline-block;width:.6rem;height:.6rem;border-radius:50%;margin-right:.35rem}
+.pd-dot.ok{background:var(--okf)}.pd-dot.warn{background:var(--warnf)}.pd-dot.bad{background:var(--badf)}
+.pd-bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.pd-bar label{display:flex;gap:8px;align-items:center}
+select,button{font:inherit;font-size:14px;color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:6px 12px}
+select{min-width:16rem;max-width:100%}
+button{cursor:pointer}
+button:hover{background:var(--hover)}
+.pd-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,9rem),1fr));gap:12px}
+.pd-kpi{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px}
+.pd-kpi span{display:block;color:var(--muted);font-size:13px}
+.pd-kpi b{display:block;font:400 30px/1.2 var(--serif);font-variant-numeric:tabular-nums;margin-top:6px}
+.pd-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:20px;display:flex;flex-direction:column;gap:10px}
+.pd-scroll{max-height:36rem;overflow:auto}
+table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:500;color:var(--muted);padding:6px 10px;border-bottom:1px solid var(--line);z-index:1}
+td{padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+td.n,th.n{text-align:right;white-space:nowrap}
+tbody tr.click{cursor:pointer}
+tbody tr.click:hover td{background:var(--hover)}
+tbody tr.pd-sel td{background:var(--sel)}
+.pd-code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;color:var(--muted);white-space:nowrap;font-size:12px}
+.pd-meter{display:flex;align-items:center;gap:10px;min-width:11rem}
+.pd-track{position:relative;flex:1;height:.625rem;background:var(--track);border-radius:var(--radius)}
+.pd-fill{position:absolute;left:0;top:0;bottom:0;border-radius:var(--radius)}
+.pd-ref{position:absolute;top:-.2rem;bottom:-.2rem;width:2px;left:66.667%;background:var(--ref)}
+.pd-pct{min-width:3.2rem;text-align:right}
+.pd-filters{display:flex;flex-wrap:wrap;gap:6px}
+.pd-filters button{font-size:13px;padding:4px 12px}
+.pd-filters button[aria-pressed=true]{background:var(--sel)}
+.pd-detail{border-top:1px solid var(--line);padding-top:10px;font-size:13px}
+.pd-detail p{margin:0}
+.pd-detail b{font-weight:500}
+.pd-detail dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:8px 0 0}
+.pd-detail dt{color:var(--muted)}
+.pd-detail dd{margin:0}
+.v{color:var(--ok)}.a{color:var(--warn)}.r{color:var(--bad)}
+[hidden]{display:none !important}
+@media (max-width:640px){.pd-meter{min-width:8rem}select{min-width:0;width:100%}.pd-bar label{width:100%}}
