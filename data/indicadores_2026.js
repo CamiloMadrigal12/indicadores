@@ -7,9 +7,9 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "6",
   "cierre_2026": "6",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Mantenimiento: cumplimiento del T3 (6 de 6 programado = 100%) × meta 2026"
  },
  {
   "secretaria": "Departamento Administrativo de Planeación",
@@ -19,9 +19,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "AH directo (mismo valor en los 3 trimestres, igual a la meta: es acumulado)"
  },
  {
   "secretaria": "Departamento Administrativo de Planeación",
@@ -30,10 +30,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Mantenimiento",
   "meta_2026": "1",
-  "cierre_2026": "0.9",
-  "cumplimiento_2026": "0.9",
+  "cierre_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Mantenimiento: cumplimiento del T1 (0.9 de 0.9 programado = 100%) × meta 2026"
  },
  {
   "secretaria": "Departamento Administrativo de Planeación",
@@ -45,7 +45,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Salud",
@@ -67,7 +67,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (25 de 25 programado = 100%) × meta 2026"
  },
@@ -93,7 +93,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Salud",
@@ -127,7 +127,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "7",
   "cierre_2026": "7",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (0+3+4)"
  },
@@ -295,9 +295,9 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "0.049",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Mantenimiento: sin meta trimestral programada; se toma el último avance reportado — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Salud",
@@ -342,10 +342,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "1",
-  "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cierre_2026": "1.3",
+  "cumplimiento_2026": "1.3",
   "estado": "verde",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Suma T1+T2+T3 (1+0.3+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Salud",
@@ -378,10 +378,10 @@ window.PDM_DATA = [
   "unidad": "Porcentaje",
   "tipo": "Mantenimiento",
   "meta_2026": "1",
-  "cierre_2026": "0.005",
-  "cumplimiento_2026": "0.005",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "1",
+  "cumplimiento_2026": "1.0",
+  "estado": "verde",
+  "calculo": "Mantenimiento: cumplimiento del T2 (25 de 25 programado = 100%) × meta 2026 — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Salud",
@@ -427,7 +427,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "6",
   "cierre_2026": "6",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (6 de 6 programado = 100%) × meta 2026"
  },
@@ -451,7 +451,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (25 de 25 programado = 100%) × meta 2026"
  },
@@ -475,7 +475,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "Suma T1+T2+T3 (0+0+0)"
  },
@@ -487,7 +487,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "Suma T1+T2+T3 (0+0+0)"
  },
@@ -501,7 +501,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Salud",
@@ -513,7 +513,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Salud",
@@ -525,7 +525,7 @@ window.PDM_DATA = [
   "cierre_2026": "0.25",
   "cumplimiento_2026": "0.25",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Movilidad",
@@ -549,7 +549,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Movilidad",
@@ -561,7 +561,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Movilidad",
@@ -573,7 +573,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Movilidad",
@@ -597,7 +597,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "INDER",
@@ -607,9 +607,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "7000",
   "cierre_2026": "7000",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "AH directo (acumulativo)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -619,9 +619,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "20",
   "cierre_2026": "20",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "AH directo (acumulativo)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -631,9 +631,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2500",
   "cierre_2026": "2500",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "AH directo (mismo valor en los 3 trimestres, igual a la meta: es acumulado)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -642,10 +642,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Mantenimiento",
   "meta_2026": "32",
-  "cierre_2026": "32",
-  "cumplimiento_2026": "1",
-  "estado": "verde",
-  "calculo": "Mantenimiento: cumplimiento del T2 (8 de 8 programado = 100%) × meta 2026"
+  "cierre_2026": "8",
+  "cumplimiento_2026": "0.25",
+  "estado": "rojo",
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -654,10 +654,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Mantenimiento",
   "meta_2026": "6",
-  "cierre_2026": "6",
-  "cumplimiento_2026": "1",
-  "estado": "verde",
-  "calculo": "Mantenimiento: cumplimiento del T3 (3 de 3 programado = 100%) × meta 2026"
+  "cierre_2026": "4",
+  "cumplimiento_2026": "0.6667",
+  "estado": "amarillo",
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -666,10 +666,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "200",
-  "cierre_2026": "524",
-  "cumplimiento_2026": "2.62",
-  "estado": "verde",
-  "calculo": "Suma T1+T2+T3 (0+200+324)"
+  "cierre_2026": "1",
+  "cumplimiento_2026": "0.005",
+  "estado": "rojo",
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -679,9 +679,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "AH directo (acumulativo)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -691,9 +691,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "0.32",
   "cierre_2026": "0.32",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Suma T1+T2+T3 de porcentaje no acumulativo (9.14+20.86+2)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -703,9 +703,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "3",
   "cierre_2026": "3",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "AH directo (acumulativo)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -717,7 +717,7 @@ window.PDM_DATA = [
   "cierre_2026": "46",
   "cumplimiento_2026": "0.8519",
   "estado": "verde",
-  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (15+9+22)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -729,7 +729,7 @@ window.PDM_DATA = [
   "cierre_2026": "8",
   "cumplimiento_2026": "0.7273",
   "estado": "amarillo",
-  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (2+3+3)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -738,10 +738,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "4",
-  "cierre_2026": "3",
-  "cumplimiento_2026": "0.75",
-  "estado": "amarillo",
-  "calculo": "Suma T1+T2+T3 (0+2+1)"
+  "cierre_2026": "0",
+  "cumplimiento_2026": "0.0",
+  "estado": "rojo",
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -751,9 +751,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "AH directo (acumulativo)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -762,10 +762,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "",
-  "cierre_2026": "",
+  "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -775,9 +775,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "0.5",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
-  "calculo": "Suma T1+T2+T3 (0+0+0)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -787,9 +787,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "0.3",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
-  "calculo": "Suma T1+T2+T3 de porcentaje no acumulativo (0+0+0)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -799,9 +799,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "0.5",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
-  "calculo": "Suma T1+T2+T3 (0+0+0)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -813,7 +813,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -823,9 +823,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "3800",
   "cierre_2026": "3800",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Suma T1+T2+T3 (950+1788+1062)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "INDER",
@@ -835,9 +835,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "6",
   "cierre_2026": "3",
-  "cumplimiento_2026": "0.3333",
+  "cumplimiento_2026": "0.5",
   "estado": "rojo",
-  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0+1+1)"
+  "calculo": "Valor cargado directamente por INDER en el cierre"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -847,7 +847,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "7",
   "cierre_2026": "7",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (3 de 3 programado = 100%) × meta 2026"
  },
@@ -909,7 +909,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -919,7 +919,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (0+1+0)"
  },
@@ -931,7 +931,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+0)"
  },
@@ -957,7 +957,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -966,10 +966,10 @@ window.PDM_DATA = [
   "unidad": "Porcentaje",
   "tipo": "Incremento",
   "meta_2026": "0",
-  "cierre_2026": "0",
+  "cierre_2026": "0.24",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "AH directo (porcentaje)"
+  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.24+0+0)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -981,7 +981,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1015,7 +1015,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (0+1+0)"
  },
@@ -1026,10 +1026,10 @@ window.PDM_DATA = [
   "unidad": "Porcentaje",
   "tipo": "Incremento",
   "meta_2026": "0",
-  "cierre_2026": "0",
+  "cierre_2026": "0.13",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "AH directo (porcentaje)"
+  "calculo": "Mayor avance reportado entre T1 y T2; el T3 vino vacío o en 0"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1099,7 +1099,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "AH directo (acumulativo)"
  },
@@ -1110,10 +1110,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "54",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "AH directo (acumulativo)"
+  "cierre_2026": "53.2",
+  "cumplimiento_2026": "0.9852",
+  "estado": "verde",
+  "calculo": "Mayor avance reportado entre T1 y T2; el T3 vino vacío o en 0"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1123,9 +1123,9 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Mantenimiento: sin meta trimestral programada; se toma el último avance reportado"
+  "calculo": "Mantenimiento: cumplimiento del T1 (1 de 1 programado = 100%) × meta 2026"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1135,7 +1135,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "650",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "Suma T1+T2+T3 (0+0+0)"
  },
@@ -1149,7 +1149,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1185,7 +1185,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1194,10 +1194,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "1",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "AH directo (acumulativo)"
+  "cierre_2026": "1",
+  "cumplimiento_2026": "1.0",
+  "estado": "verde",
+  "calculo": "Mayor avance reportado entre T1 y T2; el T3 vino vacío o en 0"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1221,7 +1221,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1243,7 +1243,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T1 (1 de 1 programado = 100%) × meta 2026"
  },
@@ -1293,7 +1293,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1303,7 +1303,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "3",
   "cierre_2026": "3",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (1+1+1)"
  },
@@ -1315,7 +1315,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (0+1+1)"
  },
@@ -1339,7 +1339,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "Suma T1+T2+T3 (0+0+0)"
  },
@@ -1363,7 +1363,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "Suma T1+T2+T3 (0+0+0)"
  },
@@ -1377,7 +1377,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1386,10 +1386,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "2",
-  "cierre_2026": "1",
-  "cumplimiento_2026": "0.5",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "2",
+  "cumplimiento_2026": "1.0",
+  "estado": "verde",
+  "calculo": "Suma T1+T2+T3 (1+1+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1410,10 +1410,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "250",
-  "cierre_2026": "250",
-  "cumplimiento_2026": "1",
+  "cierre_2026": "808",
+  "cumplimiento_2026": "3.232",
   "estado": "verde",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Suma T1+T2+T3 (250+558+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1446,10 +1446,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "5800",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "AH directo (acumulativo)"
+  "cierre_2026": "5291",
+  "cumplimiento_2026": "0.9122",
+  "estado": "verde",
+  "calculo": "Mayor avance reportado entre T1 y T2; el T3 vino vacío o en 0"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1461,7 +1461,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1473,7 +1473,7 @@ window.PDM_DATA = [
   "cierre_2026": "0.11",
   "cumplimiento_2026": "0.9167",
   "estado": "verde",
-  "calculo": "Suma T1+T2+T3 de porcentaje no acumulativo (5+5+1)"
+  "calculo": "Suma T1+T2+T3 de porcentaje no acumulativo (0.05+0.05+0.01)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1495,7 +1495,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "2",
-  "cumplimiento_2026": "2",
+  "cumplimiento_2026": "2.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+1)"
  },
@@ -1521,7 +1521,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1531,7 +1531,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+0)"
  },
@@ -1545,7 +1545,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1569,7 +1569,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1581,7 +1581,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1593,7 +1593,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1605,7 +1605,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1617,7 +1617,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1629,7 +1629,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1641,7 +1641,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1653,7 +1653,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1665,7 +1665,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1677,7 +1677,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1689,7 +1689,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1701,7 +1701,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1713,7 +1713,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Educación y Cultura",
@@ -1746,10 +1746,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "1",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "AH directo (acumulativo)"
+  "cierre_2026": "1",
+  "cumplimiento_2026": "1.0",
+  "estado": "verde",
+  "calculo": "Mayor avance reportado entre T1 y T2; el T3 vino vacío o en 0"
  },
  {
   "secretaria": "Oficina de Comunicaciones",
@@ -1759,7 +1759,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "AH directo (acumulativo)"
  },
@@ -1770,10 +1770,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "3",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "3",
+  "cumplimiento_2026": "1.0",
+  "estado": "verde",
+  "calculo": "Suma T1+T2+T3 (0+3+0)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1783,9 +1783,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Mayor avance reportado entre T1 y T2; el T3 vino vacío o en 0"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1795,9 +1795,9 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Mantenimiento: sin meta trimestral programada; se toma el último avance reportado"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1806,10 +1806,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "1",
-  "cierre_2026": "0.375",
-  "cumplimiento_2026": "0.375",
-  "estado": "rojo",
-  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.25+0+0.125)"
+  "cierre_2026": "0.625",
+  "cumplimiento_2026": "0.625",
+  "estado": "amarillo",
+  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.25+0.25+0.125)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1818,10 +1818,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "3",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "3",
+  "cumplimiento_2026": "1.0",
+  "estado": "verde",
+  "calculo": "Mayor avance reportado entre T1 y T2; el T3 vino vacío o en 0"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1831,7 +1831,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T1 (0.25 de 0.25 programado = 100%) × meta 2026"
  },
@@ -1845,7 +1845,7 @@ window.PDM_DATA = [
   "cierre_2026": "0.875",
   "cumplimiento_2026": "0.4375",
   "estado": "rojo",
-  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.75+0+0.125)"
+  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.25+0.5+0.125)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1854,10 +1854,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "1",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "0.875",
+  "cumplimiento_2026": "0.875",
+  "estado": "verde",
+  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.25+0.5+0.125)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1866,10 +1866,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "1",
-  "cierre_2026": "0.375",
-  "cumplimiento_2026": "0.375",
-  "estado": "rojo",
-  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.25+0+0.125)"
+  "cierre_2026": "1.125",
+  "cumplimiento_2026": "1.125",
+  "estado": "verde",
+  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.25+0.75+0.125)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1878,10 +1878,10 @@ window.PDM_DATA = [
   "unidad": "Porcentaje",
   "tipo": "Incremento",
   "meta_2026": "0",
-  "cierre_2026": "0",
+  "cierre_2026": "0.05",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Suma T1+T2+T3 de porcentaje no acumulativo (0+0+0.05)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1891,9 +1891,9 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Mantenimiento: cumplimiento del T1 (1 de 1 programado = 100%) × meta 2026"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1905,7 +1905,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1917,7 +1917,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1929,7 +1929,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1938,10 +1938,10 @@ window.PDM_DATA = [
   "unidad": "Porcentaje",
   "tipo": "Incremento",
   "meta_2026": "0.1",
-  "cierre_2026": "0.01625",
-  "cumplimiento_2026": "0.1625",
-  "estado": "rojo",
-  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0+0+0.01625)"
+  "cierre_2026": "0.0625",
+  "cumplimiento_2026": "0.625",
+  "estado": "amarillo",
+  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.0125+0.02+0.03)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1953,7 +1953,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Servicios Administrativos",
@@ -1965,7 +1965,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Agricultura y Medio Ambiente",
@@ -1974,10 +1974,10 @@ window.PDM_DATA = [
   "unidad": "Porcentaje",
   "tipo": "Incremento",
   "meta_2026": "0.5",
-  "cierre_2026": "0.0551",
-  "cumplimiento_2026": "0.1102",
+  "cierre_2026": "0.065",
+  "cumplimiento_2026": "0.13",
   "estado": "rojo",
-  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (3+2.5+0.01)"
+  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.03+0.025+0.01)"
  },
  {
   "secretaria": "Secretaría de Agricultura y Medio Ambiente",
@@ -2047,7 +2047,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "AH directo (acumulativo)"
  },
@@ -2073,7 +2073,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Agricultura y Medio Ambiente",
@@ -2083,7 +2083,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "AH directo (acumulativo)"
  },
@@ -2155,7 +2155,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (0.25 de 0.25 programado = 100%) × meta 2026"
  },
@@ -2203,7 +2203,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "AH directo (acumulativo)"
  },
@@ -2227,7 +2227,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (100 de 100 programado = 100%) × meta 2026"
  },
@@ -2253,7 +2253,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Agricultura y Medio Ambiente",
@@ -2265,7 +2265,7 @@ window.PDM_DATA = [
   "cierre_2026": "0.06",
   "cumplimiento_2026": "0.2",
   "estado": "rojo",
-  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (2+2+2)"
+  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.02+0.02+0.02)"
  },
  {
   "secretaria": "Secretaría de Agricultura y Medio Ambiente",
@@ -2311,7 +2311,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "AH directo (acumulativo)"
  },
@@ -2323,7 +2323,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "5",
   "cierre_2026": "5",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0+2+3)"
  },
@@ -2347,7 +2347,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (0.25 de 0.25 programado = 100%) × meta 2026"
  },
@@ -2371,9 +2371,9 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "6",
   "cierre_2026": "6",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Mantenimiento: cumplimiento del T3 (3 de 3 programado = 100%) × meta 2026"
+  "calculo": "Mantenimiento: sin meta trimestral programada; se toma el último avance reportado (tope en la meta) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2383,9 +2383,9 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "3",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2397,7 +2397,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2407,7 +2407,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "10",
   "cierre_2026": "10",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (2 de 2 programado = 100%) × meta 2026"
  },
@@ -2457,7 +2457,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2469,7 +2469,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2517,7 +2517,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2538,10 +2538,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "2",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "5",
+  "cumplimiento_2026": "2.5",
+  "estado": "verde",
+  "calculo": "Suma T1+T2+T3 (2+3+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2550,10 +2550,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Mantenimiento",
   "meta_2026": "1",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "1",
+  "cumplimiento_2026": "1.0",
+  "estado": "verde",
+  "calculo": "Mantenimiento: sin meta trimestral programada; se toma el último avance reportado (tope en la meta) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2565,7 +2565,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2577,7 +2577,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2587,7 +2587,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: sin meta trimestral programada; se toma el último avance reportado (tope en la meta)"
  },
@@ -2599,9 +2599,9 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Mantenimiento: cumplimiento del T2 (0 de 1 programado = 0%) × meta 2026 — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2611,7 +2611,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "AH directo (acumulativo)"
  },
@@ -2625,7 +2625,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2634,10 +2634,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "1",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "2",
+  "cumplimiento_2026": "2.0",
+  "estado": "verde",
+  "calculo": "Suma T1+T2+T3 (2+0+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Infraestructura",
@@ -2647,7 +2647,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "7",
   "cierre_2026": "7",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (7 de 7 programado = 100%) × meta 2026"
  },
@@ -2659,9 +2659,9 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -2685,7 +2685,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -2755,7 +2755,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+1)"
  },
@@ -2779,7 +2779,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T2 (0.25 de 0.25 programado = 100%) × meta 2026"
  },
@@ -2791,7 +2791,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+0)"
  },
@@ -2805,7 +2805,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -2817,7 +2817,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -2841,7 +2841,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -2853,7 +2853,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -2911,7 +2911,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "3",
   "cierre_2026": "3",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (1+1+1)"
  },
@@ -2937,7 +2937,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -2949,7 +2949,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -2961,7 +2961,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -2985,7 +2985,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -2997,7 +2997,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3007,7 +3007,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T2 (0.4 de 0.4 programado = 100%) × meta 2026"
  },
@@ -3031,7 +3031,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0.5+0.5+1)"
  },
@@ -3043,7 +3043,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T1 (1 de 1 programado = 100%) × meta 2026"
  },
@@ -3055,7 +3055,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (0.25 de 0.25 programado = 100%) × meta 2026"
  },
@@ -3115,7 +3115,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "6",
   "cierre_2026": "6",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (0+4+2)"
  },
@@ -3127,7 +3127,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "AH directo (porcentaje)"
  },
@@ -3139,7 +3139,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+1)"
  },
@@ -3151,7 +3151,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+1+0)"
  },
@@ -3163,7 +3163,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T3 (0.5 de 0.5 programado = 100%) × meta 2026"
  },
@@ -3189,7 +3189,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3201,7 +3201,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3213,7 +3213,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3247,7 +3247,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T1 (0.9 de 0.9 programado = 100%) × meta 2026"
  },
@@ -3283,7 +3283,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (0.5+0.5+0)"
  },
@@ -3297,7 +3297,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3309,7 +3309,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3319,7 +3319,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+1)"
  },
@@ -3333,7 +3333,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3343,7 +3343,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (0+1+1)"
  },
@@ -3355,7 +3355,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (0+1+1)"
  },
@@ -3369,7 +3369,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3381,7 +3381,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3391,7 +3391,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "3",
   "cierre_2026": "3",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (1+1+1)"
  },
@@ -3403,7 +3403,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+1)"
  },
@@ -3417,7 +3417,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3451,7 +3451,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+0)"
  },
@@ -3475,7 +3475,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "20",
   "cierre_2026": "20",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (3+9+8)"
  },
@@ -3487,7 +3487,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+1)"
  },
@@ -3501,7 +3501,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3513,7 +3513,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3525,7 +3525,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3537,7 +3537,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Desarrollo y Bienestar Social",
@@ -3607,7 +3607,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+1)"
  },
@@ -3619,7 +3619,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+0)"
  },
@@ -3631,7 +3631,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Suma T1+T2+T3 (1+0+0)"
  },
@@ -3643,7 +3643,7 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Mantenimiento: cumplimiento del T1 (1 de 1 programado = 100%) × meta 2026"
  },
@@ -3669,7 +3669,7 @@ window.PDM_DATA = [
   "cierre_2026": "",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3678,10 +3678,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Mantenimiento",
   "meta_2026": "1",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "1",
+  "cumplimiento_2026": "1.0",
+  "estado": "verde",
+  "calculo": "Mantenimiento: sin meta trimestral programada; se toma el último avance reportado (tope en la meta) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3690,10 +3690,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "4",
-  "cierre_2026": "2",
-  "cumplimiento_2026": "0.5",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "3",
+  "cumplimiento_2026": "0.75",
+  "estado": "amarillo",
+  "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (2+1+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3705,7 +3705,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3714,10 +3714,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "2",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cierre_2026": "1",
+  "cumplimiento_2026": "0.5",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Suma T1+T2+T3 (0+1+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3726,10 +3726,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Mantenimiento",
   "meta_2026": "1",
-  "cierre_2026": "0.2",
-  "cumplimiento_2026": "0.2",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "1",
+  "cumplimiento_2026": "1.0",
+  "estado": "verde",
+  "calculo": "Mantenimiento: sin meta trimestral programada; se toma el último avance reportado (tope en la meta) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3738,10 +3738,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "3",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "2",
+  "cumplimiento_2026": "0.6667",
+  "estado": "amarillo",
+  "calculo": "Suma T1+T2+T3 (0+2+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3762,10 +3762,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "6",
-  "cierre_2026": "2",
-  "cumplimiento_2026": "0.3333",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "5",
+  "cumplimiento_2026": "0.8333",
+  "estado": "verde",
+  "calculo": "Suma T1+T2+T3 (2+3+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3789,7 +3789,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3799,7 +3799,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "2",
   "cierre_2026": "2",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
   "calculo": "Meta repartida por trimestre en el plan: suma T1+T2+T3 (0+1+1)"
  },
@@ -3823,9 +3823,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Mayor avance reportado entre T1 y T2; el T3 vino vacío o en 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3834,10 +3834,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "1",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cierre_2026": "0.5",
+  "cumplimiento_2026": "0.5",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Suma T1+T2+T3 (0+0.5+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3847,9 +3847,9 @@ window.PDM_DATA = [
   "tipo": "Mantenimiento",
   "meta_2026": "1",
   "cierre_2026": "1",
-  "cumplimiento_2026": "1",
+  "cumplimiento_2026": "1.0",
   "estado": "verde",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Mantenimiento: cumplimiento del T2 (1 de 1 programado = 100%) × meta 2026 — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3861,7 +3861,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3870,10 +3870,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "24",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cierre_2026": "14",
+  "cumplimiento_2026": "0.5833",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Suma T1+T2+T3 (0+14+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3885,7 +3885,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3894,10 +3894,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "2",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
-  "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "cierre_2026": "3",
+  "cumplimiento_2026": "1.5",
+  "estado": "verde",
+  "calculo": "Suma T1+T2+T3 (0+3+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3906,10 +3906,10 @@ window.PDM_DATA = [
   "unidad": "Número",
   "tipo": "Incremento",
   "meta_2026": "4",
-  "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cierre_2026": "2",
+  "cumplimiento_2026": "0.5",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Suma T1+T2+T3 (0+2+0) — T3 sin reporte, tomado como 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3919,9 +3919,9 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "1",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Mayor avance reportado entre T1 y T2; el T3 vino vacío o en 0"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3945,7 +3945,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3957,7 +3957,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "Secretaría de Gobierno",
@@ -3969,7 +3969,7 @@ window.PDM_DATA = [
   "cierre_2026": "0",
   "cumplimiento_2026": "",
   "estado": "NP",
-  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor anterior)"
+  "calculo": "Sin dato en el Plan de Acción T3 (se mantiene el valor del cierre)"
  },
  {
   "secretaria": "INVICOP",
@@ -4015,7 +4015,7 @@ window.PDM_DATA = [
   "tipo": "Incremento",
   "meta_2026": "20",
   "cierre_2026": "0",
-  "cumplimiento_2026": "0",
+  "cumplimiento_2026": "0.0",
   "estado": "rojo",
   "calculo": "Suma T1+T2+T3 (0+0+0)"
  }
